@@ -1,0 +1,33 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment folders
+venv/
+.env/
+.env.*  # nếu có nhiều biến môi trường theo môi trường
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code or other IDE configs
+.vscode/
+.idea/
+
+# Render logs or runtime files (if any)
+*.log
+
+# FFmpeg binaries (nếu bạn include chúng)
+bin/
+
+# Node-related (nếu dùng thêm frontend)
+node_modules/
+
+# Byte-compiled / distribution
+*.egg-info/
+dist/
+build/

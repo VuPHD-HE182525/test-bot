@@ -1,11 +1,6 @@
 services:
   - type: web
     name: discord-music-bot
-    runtime: python
-    env: python
+    env: docker
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python MusicBot.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.8
+    repo: https://github.com/VuPHD-HE182525/test-bot
